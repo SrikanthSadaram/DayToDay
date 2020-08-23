@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orangeHRM.testCases.AddLeaveEntitlement">
+        <methods>
+          <include name="homePageNavigation"/>
+          <include name="addingLeaveEntitlement"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testCases.AddLeaveEntitlement -->
+      <class name="com.orangeHRM.testCases.AssignLeave">
+        <methods>
+          <include name="tearDown"/>
+          <include name="homePageNavigation"/>
+          <include name="assigningLeave"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testCases.AssignLeave -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

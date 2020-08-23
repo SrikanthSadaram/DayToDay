@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="147570" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:51:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="147570" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:51:09Z">
+      <class name="com.orangeHRM.testCases.AddLeaveEntitlement">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="homePageNavigation" is-config="true" duration-ms="32359" started-at="2020-08-22T19:49:43Z" finished-at="2020-08-22T19:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="addingLeaveEntitlement()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="addingLeaveEntitlement" duration-ms="9088" started-at="2020-08-22T19:50:16Z" finished-at="2020-08-22T19:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingLeaveEntitlement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="tearDown" is-config="true" duration-ms="1040" started-at="2020-08-22T19:50:25Z" finished-at="2020-08-22T19:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.testCases.AddLeaveEntitlement -->
+      <class name="com.orangeHRM.testCases.LeaveList">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="homePageNavigation" is-config="true" duration-ms="33453" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:49:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="cancelingLeave()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="cancelingLeave" duration-ms="23313" started-at="2020-08-22T19:49:15Z" finished-at="2020-08-22T19:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelingLeave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="tearDown" is-config="true" duration-ms="5013" started-at="2020-08-22T19:49:38Z" finished-at="2020-08-22T19:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.testCases.LeaveList -->
+      <class name="com.orangeHRM.testCases.AssignLeave">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="homePageNavigation" is-config="true" duration-ms="25670" started-at="2020-08-22T19:50:26Z" finished-at="2020-08-22T19:50:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="assigningLeave()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="assigningLeave" duration-ms="14046" started-at="2020-08-22T19:50:52Z" finished-at="2020-08-22T19:51:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assigningLeave -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="tearDown" is-config="true" duration-ms="3546" started-at="2020-08-22T19:51:06Z" finished-at="2020-08-22T19:51:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangeHRM.testCases.AssignLeave -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
