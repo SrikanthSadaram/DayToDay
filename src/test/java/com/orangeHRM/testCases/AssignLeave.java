@@ -36,8 +36,9 @@ public class AssignLeave extends Base{
 	
 	
 	@AfterClass
-	public void tearDown()
+	public void tearDown() throws InterruptedException
 	{
+		login.getLogout();
 		driver.close();
 	}
 

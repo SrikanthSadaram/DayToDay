@@ -2,6 +2,7 @@ package com.orangeHRM.pages;
 
 import java.io.IOException;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +20,7 @@ public class LoginPage extends Base{
 	
 	
 	
+	
 	@FindBy(xpath="//input[@id='txtUsername']")
 	public WebElement UserName;
 	
@@ -27,6 +29,13 @@ public class LoginPage extends Base{
 	
 	@FindBy(xpath="//input[@id='btnLogin']")
 	public WebElement Login;
+	
+	@FindBy(xpath="//a[@id='welcome']")
+	public WebElement welcome;
+	
+	@FindBy(xpath="//a[text()='Logout']")
+	public WebElement logout;
+	
 	
 	public void getLogin() throws IOException
 	{
@@ -37,6 +46,12 @@ public class LoginPage extends Base{
 		Password.sendKeys(Pswd);
 		Login.click();
 	
+	}
+	
+	public void getLogout() throws InterruptedException
+	{
+		jsClick(welcome);
+		jsClick(logout);
 	}
 
 }

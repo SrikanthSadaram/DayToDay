@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangeHRM.testCases.AssignLeave">
+      <class name="com.orangeHRM.testCases.LeaveList">
         <methods>
+          <include name="cancelingLeave"/>
           <include name="tearDown"/>
           <include name="homePageNavigation"/>
-          <include name="assigningLeave"/>
         </methods>
-      </class> <!-- com.orangeHRM.testCases.AssignLeave -->
+      </class> <!-- com.orangeHRM.testCases.LeaveList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

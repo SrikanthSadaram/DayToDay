@@ -17,6 +17,13 @@
           <include name="assigningLeave"/>
         </methods>
       </class> <!-- com.orangeHRM.testCases.AssignLeave -->
+      <class name="com.orangeHRM.testCases.LeaveList">
+        <methods>
+          <include name="cancelingLeave"/>
+          <include name="tearDown"/>
+          <include name="homePageNavigation"/>
+        </methods>
+      </class> <!-- com.orangeHRM.testCases.LeaveList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

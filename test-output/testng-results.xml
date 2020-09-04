@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="147570" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:51:09Z">
+  <suite name="Suite" duration-ms="117194" started-at="2020-09-04T14:39:21Z" finished-at="2020-09-04T14:41:18Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="147570" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:51:09Z">
+    <test name="Test" duration-ms="117194" started-at="2020-09-04T14:39:21Z" finished-at="2020-09-04T14:41:18Z">
       <class name="com.orangeHRM.testCases.AddLeaveEntitlement">
-        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="homePageNavigation" is-config="true" duration-ms="32359" started-at="2020-08-22T19:49:43Z" finished-at="2020-08-22T19:50:16Z">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@66a3ffec]" name="homePageNavigation" is-config="true" duration-ms="26086" started-at="2020-09-04T14:39:21Z" finished-at="2020-09-04T14:39:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageNavigation -->
-        <test-method status="PASS" signature="addingLeaveEntitlement()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="addingLeaveEntitlement" duration-ms="9088" started-at="2020-08-22T19:50:16Z" finished-at="2020-08-22T19:50:25Z">
+        <test-method status="PASS" signature="addingLeaveEntitlement()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@66a3ffec]" name="addingLeaveEntitlement" duration-ms="17295" started-at="2020-09-04T14:39:47Z" finished-at="2020-09-04T14:40:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addingLeaveEntitlement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@59f99ea]" name="tearDown" is-config="true" duration-ms="1040" started-at="2020-08-22T19:50:25Z" finished-at="2020-08-22T19:50:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AddLeaveEntitlement@66a3ffec]" name="tearDown" is-config="true" duration-ms="2447" started-at="2020-09-04T14:40:04Z" finished-at="2020-09-04T14:40:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.testCases.AddLeaveEntitlement -->
       <class name="com.orangeHRM.testCases.LeaveList">
-        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="homePageNavigation" is-config="true" duration-ms="33453" started-at="2020-08-22T19:48:42Z" finished-at="2020-08-22T19:49:15Z">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.LeaveList@1e88b3c]" name="homePageNavigation" is-config="true" duration-ms="23828" started-at="2020-09-04T14:40:42Z" finished-at="2020-09-04T14:41:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageNavigation -->
-        <test-method status="PASS" signature="cancelingLeave()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="cancelingLeave" duration-ms="23313" started-at="2020-08-22T19:49:15Z" finished-at="2020-08-22T19:49:38Z">
+        <test-method status="PASS" signature="cancelingLeave()[pri:0, instance:com.orangeHRM.testCases.LeaveList@1e88b3c]" name="cancelingLeave" duration-ms="9822" started-at="2020-09-04T14:41:06Z" finished-at="2020-09-04T14:41:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cancelingLeave -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.LeaveList@ae45eb6]" name="tearDown" is-config="true" duration-ms="5013" started-at="2020-08-22T19:49:38Z" finished-at="2020-08-22T19:49:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.LeaveList@1e88b3c]" name="tearDown" is-config="true" duration-ms="2085" started-at="2020-09-04T14:41:16Z" finished-at="2020-09-04T14:41:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangeHRM.testCases.LeaveList -->
       <class name="com.orangeHRM.testCases.AssignLeave">
-        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="homePageNavigation" is-config="true" duration-ms="25670" started-at="2020-08-22T19:50:26Z" finished-at="2020-08-22T19:50:52Z">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@77caeb3e]" name="homePageNavigation" is-config="true" duration-ms="21686" started-at="2020-09-04T14:40:07Z" finished-at="2020-09-04T14:40:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageNavigation -->
-        <test-method status="PASS" signature="assigningLeave()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="assigningLeave" duration-ms="14046" started-at="2020-08-22T19:50:52Z" finished-at="2020-08-22T19:51:06Z">
+        <test-method status="PASS" signature="assigningLeave()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@77caeb3e]" name="assigningLeave" duration-ms="11950" started-at="2020-09-04T14:40:29Z" finished-at="2020-09-04T14:40:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assigningLeave -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@27efef64]" name="tearDown" is-config="true" duration-ms="3546" started-at="2020-08-22T19:51:06Z" finished-at="2020-08-22T19:51:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangeHRM.testCases.AssignLeave@77caeb3e]" name="tearDown" is-config="true" duration-ms="1915" started-at="2020-09-04T14:40:41Z" finished-at="2020-09-04T14:40:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

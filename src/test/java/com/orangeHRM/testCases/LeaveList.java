@@ -25,17 +25,19 @@ public class LeaveList extends Base{
 	}
 	
 	@Test
-	public void cancelingLeave() throws InterruptedException
+	public void cancelingLeave() throws InterruptedException, IOException
 	{
 		LePage.Leave.click();
 		LePage.leaveListMenu.click();
+		LePage.sche.click();
 		LePage.getCancelingLeave();
 	}
 	
 	
 	@AfterClass
-	public void tearDown()
+	public void tearDown() throws InterruptedException
 	{
+		login.getLogout();
 		driver.close();
 	}
 
